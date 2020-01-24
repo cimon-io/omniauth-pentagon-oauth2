@@ -1,0 +1,19 @@
+require: rubocop-rspec
+
+Layout/LineLength:
+  Exclude:
+    - 'omniauth-pentagon-oauth2.gemspec'
+    - 'spec/omni_auth/strategies/pentagon_oauth2_spec.rb'
+
+Naming/FileName:
+  Exclude:
+    - 'lib/omniauth-pentagon-oauth2.rb'
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/omni_auth/strategies/pentagon_oauth2_spec.rb'
+
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - 'vendor/**/*'

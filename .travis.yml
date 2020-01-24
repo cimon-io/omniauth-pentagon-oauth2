@@ -1,0 +1,18 @@
+---
+os: linux
+language: ruby
+cache: bundler
+rvm:
+  - 2.6.3
+before_install:
+  - gem install bundler -v 2.1.4
+rvm:
+  - 2.5.3
+  - 2.6.3
+  - 2.7.0
+git:
+  quiet: true
+script:
+  - 'bundle exec bin/rake'
+  - 'bundle exec bin/rubocop'
+  - 'bundle exec bin/bundle-audit check --update --ignore=CVE-2015-9284'
