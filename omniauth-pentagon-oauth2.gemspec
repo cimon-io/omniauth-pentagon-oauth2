@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary     = 'A custom Pentagon OAuth2 strategy for OmniAuth 1.x.'
   spec.description = 'A custom Pentagon OAuth2 strategy for OmniAuth 1.x.'
-  spec.homepage    = 'https://github.com/K-S-A/omniauth-pentagon-oauth2'
+  spec.homepage    = 'https://github.com/cimon-io/omniauth-pentagon-oauth2'
   spec.license     = 'MIT'
 
   spec.required_ruby_version = Gem::Requirement.new('>= 2.5.3')
