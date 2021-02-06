@@ -27,12 +27,11 @@ Gem::Specification.new do |spec|
 
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'omniauth', '~> 1.9'
-  spec.add_runtime_dependency 'omniauth-oauth2', '~> 1.6'
+  spec.add_runtime_dependency 'omniauth-oauth2', '> 1.6', '< 2.0'
 
-  spec.add_development_dependency 'bundler-audit', '~> 0.6.1'
+  spec.add_development_dependency 'bundler-audit', '~> 0.7'
   spec.add_development_dependency 'rake', '~> 13.0'
-  spec.add_development_dependency 'rspec', '~> 3.9'
-  spec.add_development_dependency 'rubocop', '~> 0.79'
-  spec.add_development_dependency 'rubocop-rspec', '~> 1.37'
+  spec.add_development_dependency 'rspec', '~> 3.10'
+  spec.add_development_dependency 'rubocop', '~> 1.9'
+  spec.add_development_dependency 'rubocop-rspec', '~> 2.2'
 end
